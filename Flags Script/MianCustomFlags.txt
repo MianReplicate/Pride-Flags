@@ -1,0 +1,113 @@
+-- Originally created by Red. Modified by MianReplicate
+
+--[[
+Changes from original:
+- Performance loss is negligible (If there are still fps drops with this mutator enabled, let me know!)
+- Custom flags now show when capturing a flag
+- Added a default fallback for when a material isn't detected
+  - This allowed me to create the additional "DISABLED" flag option which lets players disable custom flags for a team
+  - This was an attempt to add mix and match compatibility with other custom flag mutators but I find this to be difficult to implement without being too intrusive in the code
+]]
+
+behaviour("MianCustomFlags")
+
+function MianCustomFlags:Awake()
+	self.Flags = ActorManager.capturePoints
+	self.dataContainer = self.gameObject.GetComponent(DataContainer)
+end
+
+function MianCustomFlags:Start()
+	GameEvents.onCapturePointCaptured.AddListener(self,"setPointMaterial")
+	GameEvents.onCapturePointNeutralized.AddListener(self,"setPointMaterial")
+
+    self.CustomFlags = self.dataContainer.GetMaterialArray("Flag")
+	self.ClearFlagMaterial = self.targets.DontTouch
+	self.isCloth = self.targets.DontTouch2
+	self.TeamToMaterials = {}
+
+	local blueMat = self.CustomFlags[self.script.mutator.GetConfigurationDropdown("EagleFlag") + 1]
+	local redMat = self.CustomFlags[self.script.mutator.GetConfigurationDropdown("RavenFlag") + 1]
+	if(blueMat) then
+		blueMat.color = Color(1,1,1,1)
+
+		if(self.isCloth.activeSelf) then
+			blueMat.SetTextureScale("_MainTex", Vector2(1, 1.4))
+		else
+			blueMat.SetTextureScale("_MainTex", Vector2(1, 1.1))	
+		end
+	end
+
+	if(redMat) then
+		redMat.color = Color(1,1,1,1)
+
+		if(self.isCloth.activeSelf) then
+			redMat.SetTextureScale("_MainTex", Vector2(1, 1.4))
+		else
+			redMat.SetTextureScale("_MainTex", Vector2(1, 1.1))
+		end
+	end
+
+
+	self.TeamToMaterials[Team.Blue] = blueMat
+	self.TeamToMaterials[Team.Red] = redMat
+
+	for i, capturePoint in pairs(self.Flags) do
+		self:updateFallbacks(capturePoint)
+	end
+
+	-- have to update fallbacks before updating point material
+	for i, capturePoint in pairs(self.Flags) do
+		self:setPointMaterial(capturePoint)
+		self.script.AddValueMonitor("pendingOwner", "onPendingOwnerChanged", capturePoint)
+	end
+end
+
+function MianCustomFlags:setPointMaterial(capturePoint)
+	local ownerToUse = capturePoint.pendingOwner or capturePoint.owner
+	local material = self.TeamToMaterials[ownerToUse]
+
+	if(not material) then 
+		return 
+	end
+
+	capturePoint.flagRenderer.material = material
+	if(not self:isDefaultFlagMaterial(material)) then
+		-- Have to be special here since Ravenfield just changes the color of their cloths for the teams
+		capturePoint.flagRenderer.material.color = material.color
+	end
+	capturePoint.flagRenderer.material.SetTextureScale("_MainTex", capturePoint.flagRenderer.material.GetTextureScale("_MainText"))
+end
+
+function MianCustomFlags:updateFallbackForOwner(capturePoint)
+	if(self.TeamToMaterials[capturePoint.defaultOwner] == nil) then
+		print("Using fallback material:",capturePoint.flagRenderer.material,"for",capturePoint.defaultOwner)
+		self.TeamToMaterials[capturePoint.defaultOwner] = capturePoint.flagRenderer.material -- FALLBACK MATERIAL
+		-- if we do not have a material, we need to save the current cloth one for restoration purposes
+	end
+end
+
+function MianCustomFlags:pendingOwner()
+	return CurrentEvent.listenerData.pendingOwner
+end
+
+function MianCustomFlags:onPendingOwnerChanged()
+	self:setPointMaterial(CurrentEvent.listenerData)
+end
+
+function MianCustomFlags:isSameMaterial(material, material2)
+	return material.mainTexture == material2.mainTexture
+end
+
+function MianCustomFlags:isDefaultFlagMaterial(material)
+	return isSameMaterial(material, self.TeamToMaterials[Team.Neutral].mainTexture)
+end
+
+-- Would've been used for flag compatibility but for now, it is unneeded.
+function MianCustomFlags:isOurMaterial(material)
+	for _, _material in pairs(self.TeamToMaterials) do
+		if(_material == material) then
+			return true;
+		end
+	end
+	return false;
+end
