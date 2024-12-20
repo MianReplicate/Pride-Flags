@@ -1,0 +1,344 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1450327976445928608
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5222062321539068418}
+  - component: {fileID: 6726400015927089120}
+  - component: {fileID: 8570649716227246746}
+  - component: {fileID: 1088778070788855767}
+  m_Layer: 0
+  m_Name: Pride Flags
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5222062321539068418
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1450327976445928608}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6726400015927089120
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1450327976445928608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec3b8824308adc64fb1901cef109132a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mutators:
+  - name: Pride Flags
+    description: 'Show off your queerness in war :sunglasses:'
+    menuImage: {fileID: 2800000, guid: 317debf1bf290ab4dbd3f754982f8024, type: 3}
+    mutatorPrefab: {fileID: 1450327976445928608}
+    configuration:
+      labels: []
+      integers: []
+      floats: []
+      ranges: []
+      strings: []
+      bools: []
+      dropdowns: []
+--- !u!114 &8570649716227246746
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1450327976445928608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a53a71c6a7b01e1449208c55b04f1aa8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bools: []
+  ints: []
+  floats: []
+  strings: []
+  vectors: []
+  rotations: []
+  colors:
+  - id: Flag1
+    value: {r: 1, g: 1, b: 1, a: 0}
+  - id: Flag2
+    value: {r: 0.93725497, g: 0.45882356, b: 0.16078432, a: 0}
+  - id: Flag3
+    value: {r: 0.16078432, g: 0.8117648, b: 0.6784314, a: 0}
+  - id: Flag4
+    value: {r: 0.6117647, g: 0.3137255, b: 0.5921569, a: 0}
+  - id: Flag5
+    value: {r: 0.45098042, g: 0.8431373, b: 0.93725497, a: 0}
+  - id: Flag6
+    value: {r: 1, g: 1, b: 1, a: 0}
+  - id: Flag7
+    value: {r: 0.41960788, g: 0.18823531, b: 0.83921576, a: 0}
+  - id: Flag8
+    value: {r: 0.72156864, g: 0.9686275, b: 0.5176471, a: 0}
+  - id: Flag9
+    value: {r: 0.9803922, g: 0.28627452, b: 0.3647059, a: 0}
+  - id: Flag10
+    value: {r: 0.64705884, g: 0.4039216, b: 0.54901963, a: 0}
+  - id: Flag11
+    value: {r: 0.2392157, g: 0.6509804, b: 0.25882354, a: 0}
+  - id: Flag12
+    value: {r: 0.5058824, g: 0, b: 0.5058824, a: 0}
+  - id: Flag13
+    value: {r: 0.2392157, g: 0.6509804, b: 0.25882354, a: 0}
+  - id: Flag14
+    value: {r: 0.38823533, g: 0.21960786, b: 0.007843138, a: 0}
+  - id: Flag15
+    value: {r: 0.95294124, g: 0.2784314, b: 0.9686275, a: 0}
+  - id: Flag16
+    value: {r: 0.83921576, g: 0.003921569, b: 0.43921572, a: 0}
+  - id: Flag17
+    value: {r: 0.45098042, g: 0.31764707, b: 0.5803922, a: 0}
+  - id: Flag18
+    value: {r: 0.85098046, g: 0.654902, b: 0.85098046, a: 0}
+  - id: Flag19
+    value: {r: 0, g: 0, b: 0, a: 0}
+  - id: Flag20
+    value: {r: 0.6627451, g: 0.65882355, b: 0.6627451, a: 0}
+  - id: Flag21
+    value: {r: 0.7843138, g: 0.75294125, b: 0.8941177, a: 0}
+  - id: Flag22
+    value: {r: 0.03137255, g: 0.76470596, b: 0.93725497, a: 0}
+  - id: Flag23
+    value: {r: 0.6156863, g: 0.5529412, b: 0.909804, a: 0}
+  - id: Flag24
+    value: {r: 0.6627451, g: 0.82745105, b: 0.25882354, a: 0}
+  - id: Flag25
+    value: {r: 0.7568628, g: 0.8745099, b: 0.9215687, a: 0}
+  - id: Flag26
+    value: {r: 0.9921569, g: 0.7803922, b: 0.5372549, a: 0}
+  - id: Flag27
+    value: {r: 0.75294125, g: 0.06666667, b: 0.83921576, a: 0}
+  - id: Flag28
+    value: {r: 0.70980394, g: 0.49803925, b: 0.86274517, a: 0}
+  - id: Flag29
+    value: {r: 0.015686275, g: 0.14117648, b: 0.5176471, a: 0}
+  - id: Flag30
+    value: {r: 0.45098042, g: 0, b: 0.5803922, a: 0}
+  - id: Flag31
+    value: {r: 1, g: 0, b: 0, a: 0}
+  - id: Flag32
+    value: {r: 0.56078434, g: 0.24705884, b: 0.17254902, a: 0}
+  - id: Flag33
+    value: {r: 0.7411765, g: 0, b: 0, a: 0}
+  - id: Flag34
+    value: {r: 0.5686275, g: 0.050980397, b: 0.76470596, a: 0}
+  - id: Flag35
+    value: {r: 1, g: 0.8588236, b: 0, a: 0}
+  - id: Flag36
+    value: {r: 0.8078432, g: 0.56078434, b: 0.8078432, a: 0}
+  - id: Flag37
+    value: {r: 0.9490197, g: 0.30588236, b: 0.6039216, a: 0}
+  - id: Flag38
+    value: {r: 0.22352943, g: 0.03137255, b: 0.48235297, a: 0}
+  - id: Flag39
+    value: {r: 0.11764707, g: 0.62352943, b: 0, a: 0}
+  - id: Flag40
+    value: {r: 0.9921569, g: 0.9568628, b: 0.20392159, a: 0}
+  - id: Flag41
+    value: {r: 0.4039216, g: 0.3803922, b: 1, a: 0}
+  - id: Flag42
+    value: {r: 0.12941177, g: 0.6901961, b: 1, a: 0}
+  - id: Flag43
+    value: {r: 0.57254905, g: 0.3921569, b: 0.77647066, a: 0}
+  - id: Flag44
+    value: {r: 0.9843138, g: 0.42352945, b: 0.32156864, a: 0}
+  - id: Flag45
+    value: {r: 0.5686275, g: 0.7294118, b: 0.93725497, a: 0}
+  - id: Flag46
+    value: {r: 0.8705883, g: 0.46274513, b: 0.82745105, a: 0}
+  - id: Flag47
+    value: {r: 0, g: 0, b: 1, a: 0}
+  - id: Flag48
+    value: {r: 0.93725497, g: 0.57254905, b: 0.77647066, a: 0}
+  - id: Flag49
+    value: {r: 0.08627451, g: 0.58431375, b: 0.9686275, a: 0}
+  - id: Flag50
+    value: {r: 1, g: 1, b: 1, a: 0}
+  - id: Flag51
+    value: {r: 1, g: 0.91372555, b: 0, a: 0}
+  - id: Flag52
+    value: {r: 1, g: 1, b: 1, a: 0}
+  - id: Flag53
+    value: {r: 0.6627451, g: 0, b: 0.53333336, a: 0}
+  - id: Flag54
+    value: {r: 0.47450984, g: 1, b: 0.93725497, a: 0}
+  - id: Flag55
+    value: {r: 0.8113208, g: 0.8113208, b: 0.8113208, a: 0}
+  - id: Flag56
+    value: {r: 0.5647059, g: 0.9058824, b: 1, a: 0}
+  - id: Flag57
+    value: {r: 0.8078432, g: 0.9607844, b: 1, a: 0}
+  - id: Flag58
+    value: {r: 0.54901963, g: 0.5803922, b: 0.9058824, a: 0}
+  - id: Flag59
+    value: {r: 1, g: 0.6901961, b: 1, a: 0}
+  - id: Flag60
+    value: {r: 0.735849, g: 0.6490744, b: 0.735849, a: 0}
+  gradients: []
+  textures:
+  - id: Cover
+    value: {fileID: 2800000, guid: 317debf1bf290ab4dbd3f754982f8024, type: 3}
+  - id: Flag1
+    value: {fileID: 2800000, guid: cf9b9e38ba53351409a4c536cc8d738b, type: 3}
+  - id: Flag2
+    value: {fileID: 2800000, guid: 39a53e5eed08b3948aac02fa55bca620, type: 3}
+  - id: Flag3
+    value: {fileID: 2800000, guid: bf367d8b1e7e89e479e79412e0679b41, type: 3}
+  - id: Flag4
+    value: {fileID: 2800000, guid: 8776d8844e1defd4d80a8a8be2d3b95a, type: 3}
+  - id: Flag5
+    value: {fileID: 2800000, guid: a7a6dad8992f66b48ab8edd68964cd71, type: 3}
+  - id: Flag6
+    value: {fileID: 2800000, guid: c366c969b8767fa46bd9785663133522, type: 3}
+  - id: Flag7
+    value: {fileID: 2800000, guid: 1b9efce7582942541b393ea40bc17def, type: 3}
+  - id: Flag8
+    value: {fileID: 2800000, guid: c161d64298695af4fb60fe3f4df11081, type: 3}
+  - id: Flag9
+    value: {fileID: 2800000, guid: 1844aa427d160fd439396c064ac9fafc, type: 3}
+  - id: Flag10
+    value: {fileID: 2800000, guid: ab50abf98cc491448bf749aa367d67c2, type: 3}
+  - id: Flag11
+    value: {fileID: 2800000, guid: 0eb9bcd9d19716c47af5358d128991ca, type: 3}
+  - id: Flag12
+    value: {fileID: 2800000, guid: d28181d9aa8d7c147baa3a821127073e, type: 3}
+  - id: Flag13
+    value: {fileID: 2800000, guid: 0430be9b0f322944f8f12b88c2ecf557, type: 3}
+  - id: Flag14
+    value: {fileID: 2800000, guid: 8a11e854b77fb564f81932c2c367d3ef, type: 3}
+  - id: Flag15
+    value: {fileID: 2800000, guid: 1631f59c89118b44888b25e326d24d75, type: 3}
+  - id: Flag16
+    value: {fileID: 2800000, guid: d004384cf8b96724a8d0605a17febf77, type: 3}
+  - id: Flag17
+    value: {fileID: 2800000, guid: a7621e096cbd05142b46f37126ae02f6, type: 3}
+  - id: Flag18
+    value: {fileID: 2800000, guid: e730f385fa6483448aadc81e93d29d7e, type: 3}
+  - id: Flag19
+    value: {fileID: 2800000, guid: 9694d0d024d6d604d8a49c1c30b6edf0, type: 3}
+  - id: Flag20
+    value: {fileID: 2800000, guid: a2cc5b6fc10f2824da824e3bb2d62535, type: 3}
+  - id: Flag21
+    value: {fileID: 2800000, guid: 4f93de7615645ea40b7dfa4052014724, type: 3}
+  - id: Flag22
+    value: {fileID: 2800000, guid: 2a4a4145e8de196468cb4e3a5f68984b, type: 3}
+  - id: Flag23
+    value: {fileID: 2800000, guid: b312d3d8e5dada3448bbab82d44d8eb9, type: 3}
+  - id: Flag24
+    value: {fileID: 2800000, guid: 4f344dbc87110364cb5d5fe4e716c6e4, type: 3}
+  - id: Flag25
+    value: {fileID: 2800000, guid: 1ea6698e2886a884abd2df9bb8776c31, type: 3}
+  - id: Flag26
+    value: {fileID: 2800000, guid: dcecbf3b16d6b4b4e98ce050b74ed098, type: 3}
+  - id: Flag27
+    value: {fileID: 2800000, guid: 84f290db465536e4c9bc6b0544c05eec, type: 3}
+  - id: Flag28
+    value: {fileID: 2800000, guid: 473b54d7dea4b6f44baad9b60bf7bdd6, type: 3}
+  - id: Flag29
+    value: {fileID: 2800000, guid: e26fe52371e10be449fb4b553386963c, type: 3}
+  - id: Flag30
+    value: {fileID: 2800000, guid: f8681ce344bb560408c8e06e28b48c4c, type: 3}
+  - id: Flag31
+    value: {fileID: 2800000, guid: 77669d299d27e4240808c392880fd52c, type: 3}
+  - id: Flag32
+    value: {fileID: 2800000, guid: 94a41e5880efe9c49b7fd145f7f95bb1, type: 3}
+  - id: Flag33
+    value: {fileID: 2800000, guid: 1d6fce8d75ccbad4ba66480c2e9f0a3d, type: 3}
+  - id: Flag34
+    value: {fileID: 2800000, guid: 74a2249e7469a4e48865d85edffaef06, type: 3}
+  - id: Flag35
+    value: {fileID: 2800000, guid: c71b52891e69efc4282dbfa06704845c, type: 3}
+  - id: Flag36
+    value: {fileID: 2800000, guid: 69df9456446a09245b10276cec63f667, type: 3}
+  - id: Flag37
+    value: {fileID: 2800000, guid: 72c5250db25b0aa4c95f8f4146eae7c9, type: 3}
+  - id: Flag38
+    value: {fileID: 2800000, guid: a7dfb9f0294b4f64dbf7a36fc0a9bc9a, type: 3}
+  - id: Flag39
+    value: {fileID: 2800000, guid: 6116af9c6bcff674fae6263e11298b84, type: 3}
+  - id: Flag40
+    value: {fileID: 2800000, guid: 126e1cffa335f3144adddc46a0814cbb, type: 3}
+  - id: Flag41
+    value: {fileID: 2800000, guid: c4580f9018c430d4d8e3d71945a3ad43, type: 3}
+  - id: Flag42
+    value: {fileID: 2800000, guid: 987276e7b5f99104e8972897b805a6a3, type: 3}
+  - id: Flag43
+    value: {fileID: 2800000, guid: 06ce3a9ae38850c45a5a51debf217e5c, type: 3}
+  - id: Flag44
+    value: {fileID: 2800000, guid: 9616c9dc74ec95b4b8a0843092d524b2, type: 3}
+  - id: Flag45
+    value: {fileID: 2800000, guid: 82f20e976dc706748a252f1cf3977136, type: 3}
+  - id: Flag46
+    value: {fileID: 2800000, guid: 07b90155084c9a140ad8cbf8b4b14ded, type: 3}
+  - id: Flag47
+    value: {fileID: 2800000, guid: b64e21b7fe34c5c49b2b95e8af29ccf8, type: 3}
+  - id: Flag48
+    value: {fileID: 2800000, guid: 0b8150456ca870f46b7667a1d4f13e49, type: 3}
+  - id: Flag49
+    value: {fileID: 2800000, guid: bb0e912c390c3444796faf8fe101ac4f, type: 3}
+  - id: Flag50
+    value: {fileID: 2800000, guid: fd093ed9be8079a4fbbb860563f42103, type: 3}
+  - id: Flag51
+    value: {fileID: 2800000, guid: 7e009c7b5aeb3cc4d955fbaf581d9c2c, type: 3}
+  - id: Flag52
+    value: {fileID: 2800000, guid: 87fbaf2056775584ea8b5ee430a8bbbc, type: 3}
+  - id: Flag53
+    value: {fileID: 2800000, guid: 7bf59f462219b0f4d9a64238fbf0fb46, type: 3}
+  - id: Flag54
+    value: {fileID: 2800000, guid: ea2c6ffacfd85aa46b36d25e80088f70, type: 3}
+  - id: Flag55
+    value: {fileID: 2800000, guid: 86c3195091cfdb843bbadab39a6fe7a0, type: 3}
+  - id: Flag56
+    value: {fileID: 2800000, guid: 3d0cf8f4bdc4a2e4e8013bf7daa8318f, type: 3}
+  - id: Flag57
+    value: {fileID: 2800000, guid: 17416270c020e6c4c95e08b473bc9e4d, type: 3}
+  - id: Flag58
+    value: {fileID: 2800000, guid: a54a0ddc4ba06c84ca1861b260b826d8, type: 3}
+  - id: Flag59
+    value: {fileID: 2800000, guid: d8e426d783bdef14db08b44b36c7aae3, type: 3}
+  sprites: []
+  audioClips: []
+  materials: []
+  animationCurves: []
+  fonts: []
+  gameObjects: []
+  skins: []
+  weaponEntries: []
+--- !u!114 &1088778070788855767
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1450327976445928608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f8ca71ca01d2fb4098cb42abc5eceb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  source: {fileID: 2213920135882650261, guid: 700c4f6cfbbc42b4698164a99c8c7751, type: 3}
+  behaviour: 
+  targets: []

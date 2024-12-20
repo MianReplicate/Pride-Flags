@@ -1,31 +1,14 @@
 # Introduction
-Hello! if you popped here, chances are, you want to create your own custom flags! If not, then wtf are you doing here, otherwise, carry on!
+A mutator utilizing Mian's Custom Flags Framework which allows you to replace Eagle/Raven flags with pride flags featuring multiple sexualities and identities!
 
-This is a modified version of the custom flag framework by Red for creating custom flags in Ravenfield
+This mutator is purely for entertainment (and is also just a template for my framework if im being honest). I do not mean for this to reflect any pride/political related things happening in real life. In the end you are just fighting blocky people :0
 
-# Modifications from the Original
-- Performance loss is negligible (If there are still fps drops with this mutator enabled, let me know!)
-- Custom flags now show during capture
-- Added a default fallback for when a material isn't detected
-  - This allowed me to create the additional "DISABLED" flag option which lets players disable custom flags for a team
-  - This was an attempt to add mix and match compatibility with other custom flag mutators but I find this to be difficult to implement without being too intrusive in the code
+This adds about 50+ pride related flags to the framework.
 
-# Tutorial
-Step 1. Download the package file and import it into your Unity project (Must have RFTools for obvious reasons)
+There should also be no significant performance drain with this mutator compared to other flag mutators. If you find that there is a significant change in performance, let me know in the issue tracker for the framework.
 
-Step 2. Get a 1024x512 image, and place it inside the Flag Textures folder.
+More information about the framework this mutator is dependent on can be found [here](https://steamcommunity.com/sharedfiles/filedetails/?id=3385310995).
 
-Step 3. Create a new material in the Flag Materials folder. You can just copy one of the template ones. Then replace the material's texture with your new image.
+# Credits and Template
 
-Step 4. Click the "Custom Flag Pack.prefab" within the "Assets/Custom Flags" folder and add a new material in the "Material" dropdown list within the "Data Container" script. Set the value to your material. Ensure the ids are named in order.
-
-Step 5. Click the "Custom Flag Export.prefab" and add a new element to the dropdowns for both "EagleFlag" and "RavenFlag" (Or only one if you'd prefer). These elements are connected respective to the order of the materials in the "Custom Flag Pack.prefab" file you just modified. As such, the names of the elements DO not matter, only their place in the list. E.g., the "DISABLED" option is the first element, as such it is connected to "Flag1"'s material.
-
-# FAQ
-### How to export?
-
-Select Custom Flag Export.prefab --> Ravenfield-Tools --> Click "Export Map or Content Mod"
-
-### How to test?
-
-Select Custom Flag Export.prefab --> Ravenfield-Tools --> Click "Test Map or Content Mod"
+The original framework was created by Red and then was initially altered by me to help with performance. If you want to create your own flag mutators with my framework, find a tutorial [here](https://github.com/MianReplicate/Mian-Custom-Flags-Framework).
