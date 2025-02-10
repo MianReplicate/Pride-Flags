@@ -18,5 +18,5 @@ function MianPrideFlags:Start()
 		error("Framework was not found! Please make sure the Custom Flags Framework mutator has been enabled.")
 	end
 
-	self.framework:addTexturePack(self)
+	self.framework:addFlagPack(self)
 end
