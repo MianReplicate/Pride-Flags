@@ -1,0 +1,230 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7367574429318986563
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 334527789518084447}
+  - component: {fileID: 2035011582415663066}
+  m_Layer: 0
+  m_Name: AdditionalDataContainer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &334527789518084447
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7367574429318986563}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2035011582415663066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7367574429318986563}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a53a71c6a7b01e1449208c55b04f1aa8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bools: []
+  ints: []
+  floats: []
+  strings: []
+  vectors: []
+  rotations: []
+  colors:
+  - id: Flag1
+    value: {r: 0.93725497, g: 0.3803922, b: 0.47450984, a: 0}
+  - id: Flag2
+    value: {r: 0.04705883, g: 0.6666667, b: 0.79215693, a: 0}
+  - id: Flag3
+    value: {r: 0, g: 0, b: 0, a: 0}
+  - id: Flag4
+    value: {r: 0.2901961, g: 0.33333334, b: 0.47450984, a: 0}
+  - id: Flag5
+    value: {r: 0.2901961, g: 0.04705883, b: 0.49411768, a: 0}
+  - id: Flag6
+    value: {r: 0.45098042, g: 0.14117648, b: 0.13725491, a: 0}
+  - id: Flag7
+    value: {r: 0.16078432, g: 0.37254903, b: 0.4666667, a: 0}
+  - id: Flag8
+    value: {r: 0.9568628, g: 1, b: 0.73333335, a: 0}
+  - id: Flag9
+    value: {r: 0.4039216, g: 0, b: 0.4039216, a: 0}
+  - id: Flag10
+    value: {r: 1, g: 0.82745105, b: 0, a: 0}
+  - id: Flag11
+    value: {r: 0.854902, g: 0.82745105, b: 1, a: 0}
+  - id: Flag12
+    value: {r: 0.48235297, g: 0.21568629, b: 0.48235297, a: 0}
+  - id: Flag13
+    value: {r: 0, g: 0.10980393, b: 1, a: 0}
+  - id: Flag14
+    value: {r: 0.5686275, g: 0.18431373, b: 0.098039225, a: 0}
+  - id: Flag15
+    value: {r: 1, g: 0.80392164, b: 0, a: 0}
+  - id: Flag16
+    value: {r: 1, g: 0.80392164, b: 0, a: 0}
+  - id: Flag17
+    value: {r: 1, g: 0.80392164, b: 0, a: 0}
+  - id: Flag18
+    value: {r: 0.93725497, g: 0.07058824, b: 0.5803922, a: 0}
+  - id: Flag19
+    value: {r: 0.13725491, g: 0.15686275, b: 0.38823533, a: 0}
+  - id: Flag20
+    value: {r: 0.22352943, g: 0.31764707, b: 0.6117647, a: 0}
+  - id: Flag21
+    value: {r: 0.40784317, g: 0.41176474, b: 0.75294125, a: 0}
+  - id: Flag22
+    value: {r: 1, g: 0.40000004, b: 0.5686275, a: 0}
+  - id: Flag23
+    value: {r: 1, g: 0.4901961, b: 0.49411768, a: 0}
+  - id: Flag24
+    value: {r: 0.54901963, g: 0.14117648, b: 0.76470596, a: 0}
+  - id: Flag25
+    value: {r: 1, g: 0.41960788, b: 0.627451, a: 0}
+  - id: Flag26
+    value: {r: 0.34509805, g: 0.17254902, b: 0.45098042, a: 0}
+  - id: Flag27
+    value: {r: 0.31764707, g: 0.06666667, b: 0.20784315, a: 0}
+  - id: Flag28
+    value: {r: 0.41960788, g: 0, b: 0.5647059, a: 0}
+  - id: Flag29
+    value: {r: 0.70980394, g: 0.82745105, b: 0.77647066, a: 0}
+  - id: Flag30
+    value: {r: 0.56078434, g: 0.7411765, b: 0.45098042, a: 0}
+  - id: Flag31
+    value: {r: 0.7411765, g: 0.97647065, b: 0.9215687, a: 0}
+  - id: Flag32
+    value: {r: 0.16078432, g: 0.3647059, b: 0.48235297, a: 0}
+  - id: Flag33
+    value: {r: 0.64705884, g: 0, b: 0, a: 0}
+  - id: Flag34
+    value: {r: 0.6901961, g: 0.3647059, b: 0.23529413, a: 0}
+  - id: Flag35
+    value: {r: 0.8078432, g: 0.1254902, b: 0.2901961, a: 0}
+  - id: Flag36
+    value: {r: 0.7568628, g: 0.39607847, b: 0.43529415, a: 0}
+  - id: Flag37
+    value: {r: 0.41960788, g: 0.078431375, b: 0.76470596, a: 0}
+  - id: Flag38
+    value: {r: 0, g: 0, b: 0, a: 0}
+  - id: Flag39
+    value: {r: 0.9803922, g: 1, b: 0, a: 0}
+  - id: Flag40
+    value: {r: 0.23529413, g: 0.6509804, b: 0.25882354, a: 0}
+  - id: Flag41
+    value: {r: 0.8862746, g: 0.54901963, b: 0, a: 0}
+  - id: Flag42
+    value: {r: 0.9921569, g: 0.6666667, b: 0.63529414, a: 0}
+  gradients: []
+  textures:
+  - id: Flag1
+    value: {fileID: 2800000, guid: 66be6d47a6611154bb9fd9cc650fda24, type: 3}
+  - id: Flag2
+    value: {fileID: 2800000, guid: 7b527b4d5741e01459176148d7bd2998, type: 3}
+  - id: Flag3
+    value: {fileID: 2800000, guid: b09d1f84014854a4cbe0782bc6d9e5f6, type: 3}
+  - id: Flag4
+    value: {fileID: 2800000, guid: 285187058e0f75d48bd9c4499e7eee29, type: 3}
+  - id: Flag5
+    value: {fileID: 2800000, guid: 8e018fdceef054b42b0598b5f50e5024, type: 3}
+  - id: Flag6
+    value: {fileID: 2800000, guid: 310417cb360fef04d8304732b406c4af, type: 3}
+  - id: Flag7
+    value: {fileID: 2800000, guid: 5639b20b627ffb2408a45a4ed506759b, type: 3}
+  - id: Flag8
+    value: {fileID: 2800000, guid: ff8e01d8d1d5dcf4ba27df1e85294fdd, type: 3}
+  - id: Flag9
+    value: {fileID: 2800000, guid: 75660369b83f4104bb797323dfc3f9a7, type: 3}
+  - id: Flag10
+    value: {fileID: 2800000, guid: 5fba6739264e39743b9e5cd88cb56d1f, type: 3}
+  - id: Flag11
+    value: {fileID: 2800000, guid: bccbd2e0d44899c468b66058b19c002e, type: 3}
+  - id: Flag12
+    value: {fileID: 2800000, guid: ff509f65d66e9d346a907e152e26a065, type: 3}
+  - id: Flag13
+    value: {fileID: 2800000, guid: 0f7fa858c20a7f947b30f8d35d62ac96, type: 3}
+  - id: Flag14
+    value: {fileID: 2800000, guid: f731a8d51905f5a4e80184a2c61f6b82, type: 3}
+  - id: Flag15
+    value: {fileID: 2800000, guid: 018fbf2014a9e2749bbe1cfab57d5ad9, type: 3}
+  - id: Flag16
+    value: {fileID: 2800000, guid: 39265c72ec135da4c8382b40b3d71cef, type: 3}
+  - id: Flag17
+    value: {fileID: 2800000, guid: 2ec5446613184f2429b2dd5e1e3a46a0, type: 3}
+  - id: Flag18
+    value: {fileID: 2800000, guid: 22d9002b1cec3e24e8bb4b463f8c0db1, type: 3}
+  - id: Flag19
+    value: {fileID: 2800000, guid: 97e636031bc292549a4a1a536853f51a, type: 3}
+  - id: Flag20
+    value: {fileID: 2800000, guid: 614e0cf57807e7d46b3f5a9453fc8801, type: 3}
+  - id: Flag21
+    value: {fileID: 2800000, guid: 316f51922a346584a9f8ad21a18dc7d2, type: 3}
+  - id: Flag22
+    value: {fileID: 2800000, guid: 5108dca85582c964cbd41af3cd65d19c, type: 3}
+  - id: Flag23
+    value: {fileID: 2800000, guid: 9e3156317776767408714c42be25a089, type: 3}
+  - id: Flag24
+    value: {fileID: 2800000, guid: 79eea0f31c10cc24bbdbc8df9b009e74, type: 3}
+  - id: Flag25
+    value: {fileID: 2800000, guid: d146507c01046244abad1b226a873780, type: 3}
+  - id: Flag26
+    value: {fileID: 2800000, guid: 93ce3dbdd386b9444acbcad5061e1220, type: 3}
+  - id: Flag27
+    value: {fileID: 2800000, guid: be4ac55ebe1ae4540b75bce17de85a5f, type: 3}
+  - id: Flag28
+    value: {fileID: 2800000, guid: 4b590a47a2e404341bccabeca43d28e8, type: 3}
+  - id: Flag29
+    value: {fileID: 2800000, guid: aefbe62349911d84db3b5d9502a43249, type: 3}
+  - id: Flag30
+    value: {fileID: 2800000, guid: b9c2e1ab27276534b955ae6621c5bab5, type: 3}
+  - id: Flag31
+    value: {fileID: 2800000, guid: 283603fd103360b4b973fc3ebdfb428a, type: 3}
+  - id: Flag32
+    value: {fileID: 2800000, guid: a387366fb6eefe24295fc6c3b1163c6a, type: 3}
+  - id: Flag33
+    value: {fileID: 2800000, guid: bb68b1f1a87c255438c223acdbad9f9d, type: 3}
+  - id: Flag34
+    value: {fileID: 2800000, guid: 2952f86fb711cde4383535ac41c907ac, type: 3}
+  - id: Flag35
+    value: {fileID: 2800000, guid: 4d1668dfc01dbcb4b877d2d88c24ea05, type: 3}
+  - id: Flag36
+    value: {fileID: 2800000, guid: 678c2995523ab524e8fdce664d8fa090, type: 3}
+  - id: Flag37
+    value: {fileID: 2800000, guid: 5463ba915853e804b937ca43c15b45d8, type: 3}
+  - id: Flag38
+    value: {fileID: 2800000, guid: 6617a37c9f94c714f9735162e514d028, type: 3}
+  - id: Flag39
+    value: {fileID: 2800000, guid: 19c0eb06ba026114f9b4ca31e133d0f6, type: 3}
+  - id: Flag40
+    value: {fileID: 2800000, guid: 8fc41717f6c58f24a9fce86706a38ba0, type: 3}
+  - id: Flag41
+    value: {fileID: 2800000, guid: 30976d031248cc7438f61f4f4c5a3e9d, type: 3}
+  - id: Flag42
+    value: {fileID: 2800000, guid: 7db78fdad830fcf49acf53232ed2c7f3, type: 3}
+  sprites: []
+  audioClips: []
+  materials: []
+  animationCurves: []
+  fonts: []
+  gameObjects: []
+  skins: []
+  weaponEntries: []
