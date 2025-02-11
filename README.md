@@ -14,9 +14,9 @@ More information about the framework this mutator is dependent on can be found [
 The original framework was created by Red and then was initially altered by me to help with performance. If you want to create your own flag mutators with my framework, find a tutorial [here](https://github.com/MianReplicate/Mian-Custom-Flags-Framework).
 
 Sources:
-https://imgur.com/a/free-downloadable-folder-of-hq-pride-flags-transparents-pngs-flag-templates-psds-unused-scraps-other-resources-sTVDmtU
-https://www.wikipedia.org/
-https://lgbtqia.wiki/wiki/LGBTQIA%2B_Wiki
-https://en.pronouns.page/terminology
-https://orientation.fandom.com/wiki/Orientation_Wiki
-https://gender.fandom.com/wiki/Gender_Wiki
+[Free Downloadable Pride Flags](https://imgur.com/a/free-downloadable-folder-of-hq-pride-flags-transparents-pngs-flag-templates-psds-unused-scraps-other-resources-sTVDmtU)
+[Wikipedia](https://www.wikipedia.org/)
+[LGBTQIA Wiki](https://lgbtqia.wiki/wiki/LGBTQIA%2B_Wiki)
+[Pronouns](https://en.pronouns.page/terminology)
+[Orientation](https://orientation.fandom.com/wiki/Orientation_Wiki)
+[Gender](https://gender.fandom.com/wiki/Gender_Wiki)
