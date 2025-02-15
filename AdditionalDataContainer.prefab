@@ -134,6 +134,16 @@ MonoBehaviour:
     value: {r: 0.8862746, g: 0.54901963, b: 0, a: 0}
   - id: Flag42
     value: {r: 0.9921569, g: 0.6666667, b: 0.63529414, a: 0}
+  - id: Flag43
+    value: {r: 1, g: 0.52156866, b: 0.6901961, a: 0}
+  - id: Flag44
+    value: {r: 1, g: 0.28627452, b: 0.38823533, a: 0}
+  - id: Flag45
+    value: {r: 0.38823533, g: 0.427451, b: 0.9686275, a: 0}
+  - id: Flag46
+    value: {r: 1, g: 0.34901962, b: 0.23529413, a: 0}
+  - id: Flag47
+    value: {r: 0.63529414, g: 0.86274517, b: 0.9960785, a: 0}
   gradients: []
   textures:
   - id: Flag1
@@ -220,6 +230,16 @@ MonoBehaviour:
     value: {fileID: 2800000, guid: 30976d031248cc7438f61f4f4c5a3e9d, type: 3}
   - id: Flag42
     value: {fileID: 2800000, guid: 7db78fdad830fcf49acf53232ed2c7f3, type: 3}
+  - id: Flag43
+    value: {fileID: 2800000, guid: 4f0f7317750fc7e449bcfde16bcb15d8, type: 3}
+  - id: Flag44
+    value: {fileID: 2800000, guid: 1e4b3e831ceb5e943bb2fb72f41be6ef, type: 3}
+  - id: Flag45
+    value: {fileID: 2800000, guid: 05059803508033a4e97708cd94d74c72, type: 3}
+  - id: Flag46
+    value: {fileID: 2800000, guid: cb2b322689ed3e948ab0ae591fe20c1e, type: 3}
+  - id: Flag47
+    value: {fileID: 2800000, guid: 3559f1c73afc4ce498ae2f2edf91788e, type: 3}
   sprites: []
   audioClips: []
   materials: []
