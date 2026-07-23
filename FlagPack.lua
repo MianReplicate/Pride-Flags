@@ -1,7 +1,6 @@
-local mutatorName = "MianPrideFlags"
-behaviour(mutatorName)
+behaviour("FlagPack")
 
-function MianPrideFlags:Awake()
+function FlagPack:Awake()
 	self.dataContainer = self.gameObject.GetComponent(DataContainer)
 	self.additionalDataContainer = self.targets.AdditionalDataContainer.GetComponent(DataContainer)
 	self.CustomFlags = self.dataContainer.GetTextureArray("Flag")
@@ -16,5 +15,4 @@ function MianPrideFlags:Awake()
 	end
 
 	self.cover = self.dataContainer.GetTexture("Cover")
-	self.name = mutatorName
 end
